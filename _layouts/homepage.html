@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    <div class="homepage">
+      <div class="hero-area">
+        <div class="wrapper row">
+          <div class="col-md-6 header-content">
+            <h1>GPS and route optimization solutions for your fleet.</h1>
+            <h2>
+              Plan your routes, track your drivers, and review reports on actionable analytics.
+            </h2>
+            <a class="button blue form-jumper">Did someone say free demo?</a>
+          </div>
+          <!--<img src="/img/hero-bg.jpg">-->
+        </div>
+        <div id="hero-overlay"></div>
+      </div>
+      <div class="page-content">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
