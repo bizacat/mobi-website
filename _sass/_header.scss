@@ -1,0 +1,237 @@
+header {
+  .header-area {
+    background-color: $dark-black-color;
+    height: 100px;
+    position: relative;
+    width: 100%;
+    color: #ffffff;
+  }
+
+  .site-title {
+    img {
+      max-width: 180px;
+    }
+  }
+
+  .header-cta {
+    text-align: center;
+    display: none;
+    .button {
+      font-size: 1rem;
+      margin: 1.5rem;
+      padding: 0.75rem 0.5rem;
+    }
+  }
+
+  .back-to-top {
+    color: #cacaca;
+    display: none;
+    position: relative;
+    span {
+      position: relative;
+      top: 0.75rem;
+    }
+  }
+
+  .search-area {
+    text-align: right;
+  }
+
+  .search, .phone-number {
+    margin: $spacing-unit $spacing-unit 0 0;
+  }
+
+  .search {
+    color: #ffffff;
+    border-color: rgba(#ffffff, 0.3);
+    background: url('/img/flat-icon-search.svg') no-repeat;
+    background-position: 5px 0;
+    background-size: 35px;
+    background-position: 185px 6px;
+
+    &::-webkit-input-placeholder {      color: $light-black-color;  }
+    &::-moz-placeholder{/*Firefox18-*/  color: $light-black-color;  }
+    &::-moz-placeholder{/*Firefox19+*/  color: $light-black-color;  }
+    &:-ms-input-placeholder{            color: $light-black-color;  }
+
+    &:hover {
+      color: $black-color;
+
+      &::-webkit-input-placeholder {      color: #b9b9b9;  }
+      &::-moz-placeholder{/*Firefox18-*/  color: #B9B9B9 ;  }
+      &::-moz-placeholder{/*Firefox19+*/  color: #B9B9B9 ;  }
+      &:-ms-input-placeholder{            color: #B9B9B9 ;  }
+    }
+  }
+}
+
+.top-nav {
+  list-style-type: none;
+  margin: 0 $spacing-unit;
+  display: inline-block;
+  
+  &.right {
+    float: right;
+  }
+
+  li {
+    display: inline-block;
+    width: 80px;
+    font-size: $base-font-size * 0.875;
+    text-align: center;
+    &:hover {
+      background-color: $light-black-color;
+      cursor: pointer;
+    }
+
+    &.selected {
+      background-color: rgba($dark-black-color, 0.6);
+    }
+
+    &.right {
+      float: right;
+    }
+    img {
+      max-width: 24px;
+      margin: 15px auto 5px;
+    }
+  }
+}
+
+.nav-area {
+  background-color: #414042;
+  height: 80px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+}
+
+.site-nav {
+  float: right;
+  line-height: 56px;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    line-height: $base-line-height;
+    color: #ffffff;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg {
+        width: 18px;
+        height: 15px;
+
+        path {
+          fill: $grey-color-dark;
+        }
+      }
+    }
+
+    .trigger {
+      clear: both;
+      display: none;
+    }
+
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+    }
+  }
+}
+
+.nav-dropdown {
+  background-color: rgba($dark-black-color, 0.98);
+  position: absolute;
+  top: 180px;
+  z-index: 199;
+  width: 100%;
+  display: none;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    &:first-child {
+      //text-align: center;
+      padding: $spacing-unit * 0.75 $spacing-unit $spacing-unit $spacing-unit * 4;
+      width: 100%;
+    }
+    h5 {
+      margin-bottom: 10px;
+      border-bottom: 4px solid $brand-color;
+    }
+    .planning {
+      a:hover {
+        color: $blue-color;
+      }
+      h5 {
+        border-bottom-color: $blue-color;
+      }
+    }
+    .daily-ops {
+      a:hover {
+        color: $red-color;
+      }
+      h5 {
+        border-bottom-color: $red-color;
+      }
+    }
+    .analytics {
+      a:hover {
+        color: $yellow-color;
+      }
+      h5 {
+        border-bottom-color: $yellow-color;
+      }
+    }
+    a {
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+        color: $brand-color;
+      }
+    }
+    span {
+      color: lighten($light-black-color, 15%);
+    }
+  }
+}
+
+#sticker {
+  z-index: 999;
+}

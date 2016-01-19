@@ -1,0 +1,11 @@
+{
+  "name": "new-website",
+  "version": "1.0.0",
+  "description": "New mobicorp.com homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,112 @@
+.button {
+  padding: $spacing-unit * .5;
+  font-size: $base-font-size * 1.5;
+  font-family: 'proxima-nova-soft';
+  text-decoration: none !important;
+  border-radius: 4px;
+  display: inline-block;
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 4px solid #bababa;
+  color: #414042;
+  margin: 3rem 0;
+  outline: none;
+  &:hover {
+    background-color: darken(#ffffff, 10%);
+  }
+
+  &.green, &.blue, &.yellow, &.red, &.black {
+    color: #ffffff;
+    &:hover {
+      color: darken(#ffffff, 10%);
+    }
+  }
+
+  &.green {
+    background-color: $brand-color;
+    border-bottom: 4px solid $dark-brand-color;
+    &:hover {
+      background-color: darken($brand-color, 10%);
+    }
+  }
+
+  &.blue {
+    background-color: $blue-color;
+    border-bottom: 4px solid $dark-blue-color;
+    &:hover {
+      background-color: darken($blue-color, 10%);
+    }
+  }
+
+  &.red {
+    background-color: $red-color;
+    border-bottom: 4px solid $dark-red-color;
+    &:hover {
+      background-color: darken($red-color, 10%);
+    }
+  }
+
+  &.yellow {
+    background-color: $yellow-color;
+    border-bottom: 4px solid $dark-yellow-color;
+    &:hover {
+      background-color: darken($yellow-color, 10%);
+    }
+  }
+
+  &.black {
+    background-color: $black-color;
+    border-bottom: 4px solid $dark-black-color;
+    &:hover {
+      background-color: darken($black-color, 10%);
+    }
+  }
+}
+
+select, input[type="text"], input[type="tel"], input[type="number"], input[type="email"] {
+  font-size: 16px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #dddddd;
+  background: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 4px;
+  &:hover {
+    border-color: #e8e8e8;
+    background-color: #F7F7F7;
+  }
+}
+
+select:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+[type="radio"] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px; margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  & + h4::before {
+    content: '';
+    display: inline-block;
+    width: 0.65em;
+    height: 0.65em;
+    vertical-align: -0.1em;
+    border-radius: 1em;
+    border: 0.125em solid #f7f7f7;
+    box-shadow: 0 0 0 0.15em $black-color;
+    margin-right: 0.5em;
+    transition: 0.5s ease all;
+  }
+  &:checked + h4::before {
+    background: $black-color;
+    box-shadow: 0 0 0 0.125em $black-color;
+  }
+}
+

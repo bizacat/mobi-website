@@ -1,0 +1,41 @@
+.contact-info {
+  text-align: right;
+  p {
+    margin: 0;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.5);
+    &:first-child {
+      margin-bottom: $spacing-unit * 0.5;
+    }
+  }
+}
+
+.social-media-list {
+  list-style-type: none;
+  margin: $spacing-unit 0;
+  li {
+    display: inline-block;
+    margin-left: $spacing-unit * 0.5;
+  }
+  .icon img {
+    width: 30px;
+  }
+}
+
+.site-map {
+  ul {
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    a {
+      color: rgba(255, 255, 255, 0.5);
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+  h5 {
+    margin: 0;
+  }
+}
