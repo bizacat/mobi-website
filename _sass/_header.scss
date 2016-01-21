@@ -15,13 +15,11 @@ header {
 
   .header-cta {
     text-align: center;
+    display: none;
     .button {
       font-size: 1rem;
       margin: 1.5rem;
       padding: 0.75rem 0.5rem;
-      &.hidden {
-        visibility: hidden;
-      }
     }
   }
 
