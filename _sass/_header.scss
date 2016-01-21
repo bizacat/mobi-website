@@ -65,7 +65,7 @@ header {
     }
     
     @include media-query($on-laptop) {
-      visibility: hidden;
+      display: none;
     }
   }
 }
