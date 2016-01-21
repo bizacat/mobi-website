@@ -93,11 +93,11 @@
     $(document).ready(function(){
       $('#sticker').sticky({topSpacing:0})
         .on('sticky-start', function() {
-          $('.header-cta').fadeIn();
+          $('.header-cta a').fadeIn();
           $('.back-to-top').fadeIn();
         })
         .on('sticky-end', function(){
-          $('.header-cta').fadeOut();
+          $('.header-cta a').fadeOut();
           $('.back-to-top').fadeOut();
         });
     });
