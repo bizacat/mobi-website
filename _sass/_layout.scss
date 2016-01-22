@@ -361,9 +361,7 @@
 }
 
 .solution-row {
-    @include media-query($on-laptop) {
-        svg {
-            width: 160px;
-        }
+    svg {
+        width: 160px;
     }
 }
