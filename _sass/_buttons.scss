@@ -28,6 +28,13 @@
     &:hover {
       background-color: darken($brand-color, 10%);
     }
+    &.dark {
+      background-color: $dark-brand-color;
+      border-bottom: 4px solid darken($dark-brand-color, 10%);
+      &:hover {
+        background-color: darken($dark-brand-color, 10%);
+      }
+    }
   }
 
   &.blue {
@@ -35,6 +42,13 @@
     border-bottom: 4px solid $dark-blue-color;
     &:hover {
       background-color: darken($blue-color, 10%);
+    }
+    &.dark {
+      background-color: $dark-blue-color;
+      border-bottom: 4px solid darken($dark-blue-color, 10%);
+      &:hover {
+        background-color: darken($dark-blue-color, 10%);
+      }
     }
   }
 
@@ -44,6 +58,13 @@
     &:hover {
       background-color: darken($red-color, 10%);
     }
+    &.dark {
+      background-color: $dark-red-color;
+      border-bottom: 4px solid darken($dark-red-color, 10%);
+      &:hover {
+        background-color: darken($dark-red-color, 10%);
+      }
+    }
   }
 
   &.yellow {
@@ -51,6 +72,13 @@
     border-bottom: 4px solid $dark-yellow-color;
     &:hover {
       background-color: darken($yellow-color, 10%);
+    }
+    &.dark {
+      background-color: $dark-yellow-color;
+      border-bottom: 4px solid darken($dark-yellow-color, 10%);
+      &:hover {
+        background-color: darken($dark-yellow-color, 10%);
+      }
     }
   }
 

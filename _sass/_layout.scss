@@ -338,16 +338,32 @@
     }
 }
 
+
 .product-features {
     text-align: center;
-    background-color: #86a33d;
-    color: #364818;
-    h1, h2 {
-        color: #364818;
+    &.locate {
+        background-color: #86a33d;
+        &, h1, h2 {
+            color: #364818 !important;
+        }
+    }
+    &.route {
+        background-color: $red-color;
+        &, h1, h2 {
+            color: #7d3c1d;
+        }
+    }
+    h1 {
+        font-weight: 900;
+        margin-top: 2rem;
+    }
+
+    .row:first-child img {
+        margin-top: -1rem;
     }
     img {
-        margin: 1.5rem 0;
         width: 90%;
+        margin: 2rem auto;
     }
 }
 
