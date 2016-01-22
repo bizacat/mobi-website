@@ -359,3 +359,11 @@
         width: 100%
     }
 }
+
+.solution-row {
+    @include media-query($on-laptop) {
+        svg {
+            width: 160px;
+        }
+    }
+}
