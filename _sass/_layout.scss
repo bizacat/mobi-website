@@ -340,8 +340,11 @@
 
 .product-features {
     text-align: center;
-    background-color: #78953C;
+    background-color: #86a33d;
     color: #364818;
+    h1, h2 {
+        color: #364818;
+    }
     img {
         margin: 1.5rem 0;
         width: 90%;
@@ -361,7 +364,16 @@
 }
 
 .solution-row {
+    padding-bottom: 2rem;
+    text-align: center;
     svg {
-        width: 160px;
+        width: 180px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 2rem 0;
+    }
+    li {
+        display: inline-block;
     }
 }
