@@ -133,7 +133,7 @@
 
 .video {
     position: relative;
-    background: #414042 url('/img/dark-map-bg.jpg');
+    background: #414042 url('/mobi-website/img/dark-map-bg.jpg');
     a {
         display: block;
         color: #ffffff;
@@ -273,11 +273,11 @@
         display: inline-block;
     }
     .smb th {
-        background: $blue-color url('/img/smb-blue-tile.jpg');
+        background: $blue-color url('/mobi-website/img/smb-blue-tile.jpg');
         background-size: 192px 144px;
     }
     .enterprise th {
-        background: $yellow-color url('/img/enterprise-yellow-tile.jpg');
+        background: $yellow-color url('/mobi-website/img/enterprise-yellow-tile.jpg');
         background-size: 96px 72px;
     }
 }

@@ -22,6 +22,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.7647057">
+              <caret line="456" column="50" selection-start-line="456" selection-start-column="47" selection-end-line="456" selection-end-column="50" />
+              <folding>
+                <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                <element signature="n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#svg#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#svg#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#svg#0;n#a#0;n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#svg#0;n#a#0;n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="locate.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locate.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,10 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resource.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.96428573">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.734127">
+            <state vertical-scroll-proportion="-23.125">
               <caret line="42" column="92" selection-start-line="42" selection-start-column="92" selection-end-line="42" selection-end-column="92" />
               <folding />
             </state>
@@ -84,8 +114,9 @@
       <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6923075">
-              <caret line="380" column="21" selection-start-line="380" selection-start-column="21" selection-end-line="380" selection-end-column="21" />
+            <state vertical-scroll-proportion="-3.7692308">
+              <caret line="275" column="50" selection-start-line="275" selection-start-column="50" selection-end-line="275" selection-end-column="50" />
+              <caret line="279" column="52" selection-start-line="279" selection-start-column="52" selection-end-line="279" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -127,8 +158,8 @@
         <option value="$PROJECT_DIR$/resource.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/locate.html" />
-        <option value="$PROJECT_DIR$/_sass/_layout.scss" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_sass/_layout.scss" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
       </list>
     </option>
@@ -543,12 +574,12 @@
       <workItem from="1451925551714" duration="5193000" />
       <workItem from="1452292739371" duration="397000" />
       <workItem from="1452715752592" duration="4693000" />
-      <workItem from="1453406438847" duration="14941000" />
+      <workItem from="1453406438847" duration="15144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117995000" />
+    <option name="totallyTimeSpent" value="118198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="23" width="1376" height="877" extended-state="6" />
@@ -874,24 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#svg#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#svg#0;n#a#0;n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.083333">
@@ -949,14 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6923075">
-          <caret line="380" column="21" selection-start-line="380" selection-start-column="21" selection-end-line="380" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6470588">
@@ -992,18 +997,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+    <entry file="file://$PROJECT_DIR$/resource.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8765432">
-          <caret line="106" column="89" selection-start-line="106" selection-start-column="89" selection-end-line="106" selection-end-column="89" />
+        <state vertical-scroll-proportion="-23.125">
+          <caret line="42" column="92" selection-start-line="42" selection-start-column="92" selection-end-line="42" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.734127">
-          <caret line="42" column="92" selection-start-line="42" selection-start-column="92" selection-end-line="42" selection-end-column="92" />
+        <state vertical-scroll-proportion="-4.7647057">
+          <caret line="456" column="50" selection-start-line="456" selection-start-column="47" selection-end-line="456" selection-end-column="50" />
+          <folding>
+            <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#a#0;n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7692308">
+          <caret line="275" column="50" selection-start-line="275" selection-start-column="50" selection-end-line="275" selection-end-column="50" />
+          <caret line="279" column="52" selection-start-line="279" selection-start-column="52" selection-end-line="279" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96428573">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding />
         </state>
       </provider>
