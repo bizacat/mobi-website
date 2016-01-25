@@ -85,25 +85,30 @@
   </div>
 
 
+
+  <!-- simple-lightbox header -->
+  <script src="{{ site.baseurl }}/vendor/simplelightbox-master/dist/simple-lightbox.min.js"></script>
+
   <!-- my js -->
   <script src="{{ site.baseurl }}/js/helpers.js"></script>
 
   <!-- garand sticky header -->
   <script>
-    $(document).ready(function(){
-      $('#sticker').sticky({topSpacing:0})
-        .on('sticky-start', function() {
-          $('.header-cta').fadeIn();
-          $('.back-to-top').fadeIn();
-        })
-        .on('sticky-end', function(){
-          $('.header-cta').fadeOut();
-          $('.back-to-top').fadeOut();
-        });
+  $(document).ready(function(){
+    $('#sticker').sticky({topSpacing:0})
+    .on('sticky-start', function() {
+      $('.header-cta').fadeIn();
+      $('.back-to-top').fadeIn();
+    })
+    .on('sticky-end', function(){
+      $('.header-cta').fadeOut();
+      $('.back-to-top').fadeOut();
     });
-  </script>
 
-  <!-- simple-lightbox header -->
-  <script src="{{ site.baseurl }}/vendor/simplelightbox-master/dist/simple-lightbox.min.js"></script>
+    var gallery = $('.gallery a').simpleLightbox();
+    $.simpleLightbox({});
+
+  });
+  </script>
 
 </footer>
