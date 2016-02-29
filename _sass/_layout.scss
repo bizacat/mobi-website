@@ -13,7 +13,7 @@
     background-position: right;
     position: relative;
     overflow: hidden;
-    height: 500px;
+    min-height: 500px;
     width: 100%;
     .wrapper {
         padding: $spacing-unit $spacing-unit * 4 $spacing-unit * 2;
@@ -379,7 +379,7 @@
         position: relative;
         right: -12rem;
         bottom: 2rem;
-        margin-bottom: 0;
+        margin-bottom: -2rem;
     }
 }
 

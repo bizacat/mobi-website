@@ -1,10 +1,11 @@
 header {
+  width: 100%;
+
   .header-area {
     background-color: $dark-black-color;
     height: 100px;
-    position: relative;
-    width: 100%;
     color: #ffffff;
+    overflow: hidden;
   }
 
   .site-title {
@@ -35,10 +36,22 @@ header {
 
   .search-area {
     text-align: right;
+    padding: $spacing-unit * 0.25 $spacing-unit;
   }
-
-  .search, .phone-number {
-    margin: $spacing-unit $spacing-unit 0 0;
+  
+  .search-icon, .menu-icon {
+    display: none;
+    &:hover {
+      cursor: pointer;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    @include media-query($on-palm) {
+      font-size: 2.5rem;
+      display: inline-block;
+      position: relative;
+      top: $spacing-unit;
+      margin-right: $spacing-unit;
+    }
   }
 
   .search {
@@ -48,7 +61,8 @@ header {
     background-position: 5px 0;
     background-size: 35px;
     background-position: 185px 6px;
-    width: 40%;
+    width: 100%;
+    max-width: 240px;
 
     &::-webkit-input-placeholder {      color: $light-black-color;  }
     &::-moz-placeholder{/*Firefox18-*/  color: $light-black-color;  }
@@ -63,21 +77,28 @@ header {
       &::-moz-placeholder{/*Firefox19+*/  color: #B9B9B9 ;  }
       &:-ms-input-placeholder{            color: #B9B9B9 ;  }
     }
-    
-    @include media-query($on-laptop) {
+
+    @include media-query($on-palm) {
       display: none;
     }
   }
 }
 
+.phone-number, .back-to-top {
+  @include media-query($on-palm) {
+    display: none !important;
+  }
+}
+
+.sticky-controls {
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
 .top-nav {
   list-style-type: none;
-  margin: 0 $spacing-unit;
-  display: inline-block;
-  
-  &.right {
-    float: right;
-  }
+  margin: 0 0 0 $spacing-unit;
 
   li {
     display: inline-block;
@@ -105,11 +126,11 @@ header {
 
 .nav-area {
   background-color: #414042;
-  height: 80px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  //height: 80px;
   color: #ffffff;
+  @include media-query($on-palm) {
+    display: none;
+  }
 }
 
 .site-nav {

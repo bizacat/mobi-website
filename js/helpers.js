@@ -25,7 +25,7 @@ $( document ).ready(function() {
     var fleetImage = $('#fleet-size img');
 
     fleetSelect.change(function () {
-        fleetImage.attr('src', '/img/fleet-' + $(this).val() + '.png');
+        fleetImage.attr('src', '/mobi-website/img/fleet-' + $(this).val() + '.png');
     });
 
     // if industry select has a value of x, then show image x
@@ -33,7 +33,7 @@ $( document ).ready(function() {
     var industryImage = $('#industry img');
 
     industrySelect.change(function () {
-        industryImage.attr('src', '/img/' + $(this).val() + '-weeble.png');
+        industryImage.attr('src', '/mobi-website/img/' + $(this).val() + '-weeble.png');
     });
 
     // clicking on solutions toggles the dropdown
