@@ -51,6 +51,7 @@ header {
       position: relative;
       top: $spacing-unit;
       margin-right: $spacing-unit;
+      float: right;
     }
   }
 
@@ -159,46 +160,8 @@ header {
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
-        width: 18px;
-        height: 15px;
-
-        path {
-          fill: $grey-color-dark;
-        }
-      }
-    }
-
-    .trigger {
-      clear: both;
-      display: none;
-    }
-
-    &:hover .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
   }
+
 }
 
 .nav-dropdown {

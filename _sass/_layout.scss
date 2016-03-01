@@ -57,6 +57,12 @@
         margin: $spacing-unit auto $spacing-unit * 0.5;
         text-align: center;
     }
+
+    @include media-query($on-palm) {
+        h1 {
+            font-size: $base-font-size * 3;
+        }
+    }
 }
 
 #hero-overlay {
