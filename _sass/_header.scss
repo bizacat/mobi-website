@@ -85,6 +85,14 @@ header {
   }
 }
 
+@include media-query($media-sm) {
+  header {
+    .header-area {
+      height: 60px;
+    }
+  }
+}
+
 .phone-number, .back-to-top {
   @include media-query($on-palm) {
     display: none !important;
