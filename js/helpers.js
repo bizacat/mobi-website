@@ -15,6 +15,12 @@ $( document ).ready(function() {
         return false;
     });
 
+// Show search form in header on mobile
+    $('.search-icon').click(function() {
+
+    });
+
+// Show ROI Calculations on homepage
     $('#show-money').click(function (event) {
         event.preventDefault();
         $('.roi-results').slideToggle();

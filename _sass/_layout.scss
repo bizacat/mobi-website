@@ -4,41 +4,6 @@
 @import "vendor/bootstrap/grid";
 @import "buttons";
 
-.homepage .hero-area {
-    background: url('../img/hero-bg.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: right;
-    position: relative;
-    overflow: hidden;
-    min-height: 500px;
-    
-    .wrapper {
-        padding: $spacing-unit $spacing-unit * 4 $spacing-unit * 2;
-
-        @include media-query($on-laptop) {
-            padding-top: $spacing-unit;
-            .header-content {
-                z-index: 50;
-                text-align: center;
-                padding: $spacing-unit;
-                background-color: rgba(50, 50, 50, 0.85);
-            }
-            h1, h2 {
-                color: #ffffff;
-            }
-        }
-
-        @include media-query($on-palm) {
-            padding: $spacing-unit;
-            .header-content {
-                background: transparent;
-            }
-        }
-    }
-}
 .hero-area {
     color: #505744;
 
@@ -58,73 +23,21 @@
         text-align: center;
     }
 
-    @include media-query($on-palm) {
+}
+
+
+@include media-query($media-lg) {
+    .hero-area {
         h1 {
             font-size: $base-font-size * 3;
         }
     }
 }
 
-#hero-overlay {
-    display: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    @include media-query($on-palm) {
-        background-color: rgba(50, 50, 50, 0.85);
-        display: block;
-    }
-}
-
-.homepage section {
-    text-align: center;
-    padding-top: $spacing-unit;
-    padding-bottom: $spacing-unit;
-}
-
-.solution-features {
-    a {
-        font-weight: 900;
-        font-family: 'proxima-nova-soft';
-        color: $blue-color;
-    }
-    svg {
-        @include media-query($on-palm) {
-            margin-top: $spacing-unit * 2;
-        }
-    }
-    .planning:hover .pl0 {
-        fill: #A0BDD7;
-    }
-    .daily-ops:hover .do0 {
-        fill: #FBB55E;
-    }
-    .gps-tracking:hover .gps0 {
-        fill: #B2C043;
-    }
-    .analytics:hover .an0  {
-        fill: #FEDD7F;
-    }
+@include media-query($media-sm) {
 
 }
 
-.solution-features, .social-proof {
-    padding-top: $spacing-unit;
-    a h4 {
-        color: $black-color;
-        text-decoration: none;
-        line-height: 1.2;
-    }
-    svg, img {
-        margin-bottom: $spacing-unit;
-        width: 100%;
-        max-width: 10em;
-    }
-    [class^="col"]:first-child img, [class^="col"]:first-child svg {
-        margin-top: 0;
-    }
-}
 
 .description {
     font-size: $base-font-size * 0.875;
@@ -288,13 +201,19 @@
     }
 }
 
-.bundle-features > div {
-    margin-top: 4em;
-    text-align: left;
-    a {
-        font-size: 1.25em;
-        display: block;
-        margin: 1em auto 1em;
+.bundle-features {
+    & > div {
+        margin-top: 4em;
+        text-align: left;
+        a {
+            font-size: 1.25em;
+            display: block;
+            margin: 1em auto 1em;
+        }
+    }
+    .image {
+        text-align: center;
+        padding-bottom: $spacing-unit * 1.5;
     }
 }
 

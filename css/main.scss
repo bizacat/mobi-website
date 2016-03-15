@@ -46,6 +46,10 @@ $content-width:    1200px;
 $on-palm:          768px;
 $on-laptop:        992px;
 
+$media-xs:         480px;
+$media-sm:         768px;
+$media-md:         992px;
+$media-lg:         1200px;
 
 
 // Use media queries like this:
@@ -68,6 +72,7 @@ $on-laptop:        992px;
         "base",
         "buttons",
         "layout",
+        "homepage",
         "header",
         "syntax-highlighting",
         "footer",

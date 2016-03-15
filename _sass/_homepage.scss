@@ -1,0 +1,107 @@
+.homepage {
+  .hero-area {
+    background: url('../img/hero-bg.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    overflow: hidden;
+    min-height: 500px;
+
+    .wrapper {
+      padding: $spacing-unit $spacing-unit * 4 $spacing-unit * 2;
+    }
+  }
+
+  section {
+    text-align: center;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+  }
+}
+
+#hero-overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  @include media-query($on-palm) {
+    background-color: rgba(50, 50, 50, 0.85);
+    display: block;
+  }
+}
+
+
+// FEATURES SECTION ON HOMEPAGE
+
+.solution-features {
+  a {
+    font-weight: 900;
+    font-family: 'proxima-nova-soft';
+  }
+  svg {
+    @include media-query($on-palm) {
+      margin-top: $spacing-unit * 2;
+    }
+  }
+  .planning:hover .pl0 {
+    fill: #A0BDD7;
+  }
+  .daily-ops:hover .do0 {
+    fill: #FBB55E;
+  }
+  .gps-tracking:hover .gps0 {
+    fill: #B2C043;
+  }
+  .analytics:hover .an0  {
+    fill: #FEDD7F;
+  }
+
+}
+
+.solution-features, .social-proof {
+  padding-top: $spacing-unit;
+  a h4 {
+    color: $black-color;
+    text-decoration: none;
+    line-height: 1.2;
+  }
+  svg, img {
+    margin-bottom: $spacing-unit;
+    width: 100%;
+    max-width: 10em;
+  }
+  [class^="col"]:first-child img, [class^="col"]:first-child svg {
+    margin-top: 0;
+  }
+}
+
+
+@include media-query($media-lg) {
+  .homepage {
+    .hero-area {
+      padding-top: $spacing-unit;
+      .header-content {
+        z-index: 50;
+        text-align: center;
+        padding: $spacing-unit;
+        background-color: rgba(50, 50, 50, 0.85);
+      }
+      h1, h2 {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@include media-query($media-sm) {
+  .homepage .wrapper {
+    padding: $spacing-unit;
+    .header-content {
+      background: transparent;
+    }
+  }
+}
