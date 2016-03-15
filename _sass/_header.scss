@@ -87,8 +87,11 @@ header {
 
 @include media-query($media-sm) {
   header {
-    .header-area {
+    .header-area, .site-title img {
       height: 60px;
+    }
+    .search-icon, .menu-icon {
+      top: 13px;
     }
   }
 }
