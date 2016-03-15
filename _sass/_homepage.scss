@@ -9,12 +9,12 @@
     position: relative;
     overflow: hidden;
     min-height: 500px;
-
-    .wrapper {
-      padding: $spacing-unit $spacing-unit * 4 $spacing-unit * 2;
-    }
   }
 
+  .wrapper {
+    padding: $spacing-unit $spacing-unit * 4 $spacing-unit * 2;
+  }
+  
   section {
     text-align: center;
     padding-top: $spacing-unit;
