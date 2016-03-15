@@ -24,6 +24,11 @@ $( document ).ready(function() {
     $('#show-money').click(function (event) {
         event.preventDefault();
         $('.roi-results').slideToggle();
+    //Scroll-to ROI when submitting on homepage
+        $('html,body').animate({
+            scrollTop: $('.roi-calc-anchor').offset().top
+        }, 700, 'swing');
+        return false;
     });
 
     // if fleet size select has a value of x, then show image x
